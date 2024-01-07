@@ -7,16 +7,17 @@ interface CardProps {
   deployedLink: string;
   desc: string;
   tech: string[];
+  img?: string;
 }
 
-function ProjectCard({ title, deployedLink, desc, tech }: CardProps) {
+function ProjectCard({ title, deployedLink, desc, tech, img }: CardProps) {
   const dummy = ["REACT", "NEXTJS", "TAILWIND", "FIREBASE", "REACT NATIVE"];
   return (
     <div className="m-10 border-[0.1px] transform transition-transform duration-300 hover:scale-105 border-gray-600 max-w-sm cursor-pointer">
-      {/* <Image alt="" src={""} /> */}
-      <div className="h-44 bg-black " />
+      {img && <Image alt="" src={img} width={400} height={40} objectFit={""} />}
+
       <div className="space-y-4 p-3">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center flex-col md:flex-row  justify-between">
           <h1 className="font-bold text-gray-300 text-xl">{title}</h1>
           {deployedLink && (
             <a target="_blank" href={deployedLink}>
@@ -31,7 +32,7 @@ function ProjectCard({ title, deployedLink, desc, tech }: CardProps) {
         <div className="grid gap-y-2 grid-cols-3">
           {tech?.map((text, i) => {
             return (
-              <div key={i} className="bg-gray-800 w-fit p-2  rounded-md">
+              <div key={i} className="bg-gray-800 w-fit h-fit p-2  rounded-md">
                 <p className="text-sm font-semibold">{text}</p>
               </div>
             );

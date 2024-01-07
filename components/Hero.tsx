@@ -4,8 +4,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className=" h-[90vh] flex flex-col text-center justify-center items-center">
-      <h1 className=" text-5xl font-extrabold text-pink-200">Hey! I'm</h1>
+    <div className="flex flex-col text-center justify-center items-center">
+      <h1 className=" text-5xl font-extrabold text-pink-200 mt-10">Hey! I'm</h1>
       <h1 className=" text-5xl font-extrabold text-blue-500 mt-5">
         Khushaal Choithramani
       </h1>

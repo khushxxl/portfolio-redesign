@@ -1,7 +1,7 @@
 import React from "react";
 
 function Testimonial() {
-  return <div>Testimonial</div>;
+  return <div></div>;
 }
 
 export default Testimonial;

@@ -20,6 +20,7 @@ function LiveProjects() {
               deployedLink={item.deployedLink}
               desc={item.dsc}
               tech={item.tech}
+              img={item.img}
             />
           );
         })}

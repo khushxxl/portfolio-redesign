@@ -7,7 +7,9 @@ function Footer() {
       <h1 className="text-ms mt-10 text-blue-500 font-bold">
         Directly work with me
       </h1>
-      <h1 className="text-3xl font-semibold mt-2">Have a project in mind?</h1>
+      <h1 className="text-3xl font-semibold mt-2 text-center">
+        Have a project in mind?
+      </h1>
       <p className="text-center max-w-lg mt-3 tracking-wide font-smeibold text-gray-400">
         Wondering to get started with a business? Or have been stuck on that app
         idea, feel free to talk about it with me directly on
