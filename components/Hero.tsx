@@ -1,14 +1,17 @@
 import { ArrowDown } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
   return (
     <div className="flex flex-col text-center justify-center items-center">
       <h1 className=" text-5xl font-extrabold text-pink-200 mt-10">Hey! I'm</h1>
-      <h1 className=" text-5xl font-extrabold text-blue-500 mt-5">
-        Khushaal Choithramani
-      </h1>
+      <Link href="/">
+        <h1 className=" text-5xl font-extrabold text-blue-500 mt-5">
+          Khushaal Choithramani
+        </h1>
+      </Link>
       <h1 className=" text-5xl font-extrabold underline text-yellow-300 mt-5">
         Full Stack Developer
       </h1>

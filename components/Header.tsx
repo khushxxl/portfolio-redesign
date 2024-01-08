@@ -21,13 +21,20 @@ function Header() {
       </div>
       <div className="flex items-center space-x-3">
         <div className="hidden md:flex items-center space-x-4">
-          <DarkModeToggler />
-          <GithubIcon className=" text-gray-400 hover:text-white cursor-pointer" />
-          <LinkedinIcon className=" text-gray-400 hover:text-white cursor-pointer" />
-          <TwitterIcon className=" text-gray-400 hover:text-white cursor-pointer" />
-          <Button variant={"secondary"}>
-            <MailIcon className="mr-2 h-4 w-4" /> Hire Me
-          </Button>
+          <a target="_blank" href="https://github.com/khushxxl">
+            <GithubIcon className=" text-gray-400 hover:text-white cursor-pointer" />
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/khushcodes/">
+            <LinkedinIcon className=" text-gray-400 hover:text-white cursor-pointer" />
+          </a>
+          <a target="_blank" href="https://twitter.com/khushaal_04">
+            <TwitterIcon className=" text-gray-400 hover:text-white cursor-pointer" />
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/khushcodes/">
+            <Button variant={"secondary"}>
+              <MailIcon className="mr-2 h-4 w-4" /> Hire Me
+            </Button>
+          </a>
         </div>
         <div className="md:hidden flex">
           <HeaderDropDown />

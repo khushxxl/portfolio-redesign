@@ -20,9 +20,15 @@ function Footer() {
         </a>
       </p>
       <div className="flex space-x-5 mt-10">
-        <GithubIcon className=" text-gray-400 hover:text-white cursor-pointer hover:animate-bounce" />
-        <LinkedinIcon className=" text-gray-400 hover:text-white cursor-pointer hover:animate-bounce" />
-        <TwitterIcon className=" text-gray-400 hover:text-white cursor-pointer hover:animate-bounce" />
+        <a target="_blank" href="https://github.com/khushxxl">
+          <GithubIcon className=" text-gray-400 hover:text-white cursor-pointer hover:animate-bounce" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/khushcodes/">
+          <LinkedinIcon className=" text-gray-400 hover:text-white cursor-pointer hover:animate-bounce" />
+        </a>
+        <a target="_blank" href="https://twitter.com/khushaal_04">
+          <TwitterIcon className=" text-gray-400 hover:text-white cursor-pointer hover:animate-bounce " />
+        </a>
       </div>
     </div>
   );
