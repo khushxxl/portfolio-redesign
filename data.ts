@@ -63,3 +63,12 @@ export const testimonials = [
     text: "Khushaal has helped Imbraze as a frontend developer. While I have had no previous contact working with Khushaal, he has shown to be very hard-working and determined to deliver the demands of our requests to the best of his abilities. He is both kind and communicative, always sending us updates with his progress and making the appropriate changes immediately after our feedback.",
   },
 ];
+
+export const skills = [
+  "Android Development",
+  "Frontend Development",
+  "Backend Development",
+  "iOS Development",
+  "App Development",
+  "Web & App Design",
+];

@@ -21,9 +21,9 @@ function ProjectCard({ title, deployedLink, desc, tech, img }: CardProps) {
           <h1 className="font-bold text-gray-300 text-xl">{title}</h1>
           {deployedLink && (
             <a target="_blank" href={deployedLink}>
-              <h1 className="flex font-normal space-x-2">
+              <p className="flex font-normal space-x-2">
                 <Link2Icon /> <span>Live</span>
-              </h1>
+              </p>
             </a>
           )}
         </div>

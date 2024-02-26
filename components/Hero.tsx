@@ -19,6 +19,9 @@ function Hero() {
         Transforming Code into Aesthetic Masterpieces for a Seamless User
         Experience.
       </h1>
+      <h1 className=" text-sm font-normal tracking-wide text-yellow-300 mt-5">
+        Deploying apps since 2020 🚀
+      </h1>
       <div className="mt-10">
         <Image
           className=""
