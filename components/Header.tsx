@@ -15,7 +15,7 @@ function Header() {
   return (
     <div className=" sticky top-0 z-50 border-b-[0.1px] md:px-10 px-4 py-3 bg-[#10101A] border-gray-600 flex items-center justify-between ">
       <div className="flex items-center cursor-pointer">
-        <h1 className="text-lg font-semibold tracking-wide ml-5 text-gray-100">
+        <h1 className="text-lg font-mono font-semibold tracking-wide ml-5 text-gray-100">
           Khushaal Choithramani
         </h1>
       </div>

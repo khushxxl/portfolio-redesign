@@ -49,7 +49,7 @@ export const moreProjects = [
 export const testimonials = [
   {
     name: "Gleb",
-    work: "Built a startup from scratch and deployed it live!",
+    work: "Built a car pooling startup from scratch and deployed it live!",
     text: "Khushaal was a rockstar in building Viia from scratch. Not only did he nail the first app version, but he also aced the scaling and feature tweaks as we grew. At large, no bugs got away from him. From my perspective as a CEO, he was always on point and spent what to me seemed like every waking moment tweaking and improving our car-saring platform. Huge thanks to him!",
   },
   {
@@ -62,6 +62,12 @@ export const testimonials = [
     work: "Built a NFT collection website",
     text: "Khushaal has helped Imbraze as a frontend developer. While I have had no previous contact working with Khushaal, he has shown to be very hard-working and determined to deliver the demands of our requests to the best of his abilities. He is both kind and communicative, always sending us updates with his progress and making the appropriate changes immediately after our feedback.",
   },
+
+  {
+    name: "Azaan",
+    work: "Built a car pooling startup from scratch and deployed it live and got users",
+    text: "In conclusion, I wholeheartedly endorse Khushaal for his exceptional work as a front-end developer. His combination of effective communication, collaborative spirit, creativity, and problem-solving abilities truly set him apart. Working with Khushaal was not just professionally rewarding, but it also significantly contributed to the success and excellence of our projects. I would absolutely work with him again and look forward to seeing his bright future unfold.",
+  },
 ];
 
 export const skills = [
@@ -71,4 +77,6 @@ export const skills = [
   "iOS Development",
   "App Development",
   "Web & App Design",
+  "Blockchain",
+  "Web 3 ",
 ];

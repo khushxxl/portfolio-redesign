@@ -3,7 +3,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="p-2">
+    <div className="p-5">
       <h1 className="text-[#F9D46D] text-2xl font-bold tracking-wide">
         Skills
       </h1>
@@ -15,7 +15,7 @@ function Skills() {
           return (
             <div
               key={i}
-              className="bg-slate-800 transform hover:scale-110 transition-all duration-150 cursor-pointer min-w-[170px] text-center  p-[3px] mt-5 rounded-md"
+              className="bg-slate-800 font-semibold transform hover:scale-110 transition-all duration-150 cursor-pointer min-w-[170px] text-center  p-2 mt-5 rounded-md"
             >
               <h1>{data}</h1>
             </div>

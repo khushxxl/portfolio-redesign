@@ -12,14 +12,14 @@ function Hero() {
           Khushaal Choithramani
         </h1>
       </Link>
-      <h1 className=" text-5xl font-extrabold underline text-yellow-300 mt-5">
+      <h1 className="text-5xl mt-4 text-center font-mono font-extrabold text-transparent bg-clip-text tracking-wider bg-gradient-to-r from-yellow-200 via-green-200 to-green-300">
         Full Stack Developer
       </h1>
-      <h1 className=" text-sm font-normal tracking-wide text-yellow-300 mt-5">
+      <h1 className=" font-mono text-md font-normal tracking-wide text-yellow-300 mt-5">
         Transforming Code into Aesthetic Masterpieces for a Seamless User
         Experience.
       </h1>
-      <h1 className=" text-sm font-normal tracking-wide text-yellow-300 mt-5">
+      <h1 className=" font-mono text-sm font-normal tracking-wide text-yellow-300 mt-5">
         Deploying apps since 2020 🚀
       </h1>
       <div className="mt-10">
