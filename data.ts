@@ -60,7 +60,7 @@ export const moreProjects = [
   },
   {
     id: 493333,
-    name: "Netflix-Clone Mobile App",
+    title: "Netflix-Clone Mobile App",
     dsc: "Netflix mobile app clone, which lets you stream movies and web shows (dummy now)",
     tech: ["REACT", "REACT NATIVE"],
     img: "https://i.ibb.co/rmNTDQG/Frame-4.png",
