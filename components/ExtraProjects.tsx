@@ -11,7 +11,7 @@ function ExtraProjects() {
       <h1 className="text-gray-500 text-sm font-semibold  tracking-wide">
         More projects that I built 😉
       </h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-center">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3">
         {moreProjects.map((item, i) => {
           return (
             <ProjectCard
@@ -21,6 +21,7 @@ function ExtraProjects() {
               desc={item.dsc}
               tech={item.tech}
               img={item.img}
+              type={item.type}
             />
           );
         })}

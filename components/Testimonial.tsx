@@ -2,7 +2,6 @@ import * as React from "react";
 
 import { testimonials } from "@/data";
 import Marquee from "react-fast-marquee";
-import { User, UserCheck } from "lucide-react";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 
 export function Testimonial() {

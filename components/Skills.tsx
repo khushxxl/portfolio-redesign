@@ -10,7 +10,7 @@ function Skills() {
       <h1 className="text-gray-500 text-sm font-semibold  tracking-wide">
         Skills that I excel and have a lot of experience inn 💪
       </h1>
-      <div className="grid  grid-cols-2 md:grid-cols-3 place-items-center text-justify">
+      <div className="grid  grid-cols-1 text-sm  md:grid-cols-3 place-items-center text-justify">
         {skills?.map((data, i) => {
           return (
             <div

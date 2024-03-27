@@ -11,7 +11,7 @@ function LiveProjects() {
       <h1 className="text-gray-500 text-sm font-semibold  tracking-wide">
         Live SAAS projects that are being used by users ⚡️
       </h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-center">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-center md:place-items-stretch">
         {liveProjects.map((item, i) => {
           return (
             <ProjectCard
@@ -20,6 +20,7 @@ function LiveProjects() {
               deployedLink={item.deployedLink}
               desc={item.dsc}
               tech={item.tech}
+              type={item.type}
               img={item.img}
             />
           );
