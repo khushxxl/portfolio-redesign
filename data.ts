@@ -28,7 +28,7 @@ export const liveProjects = [
     dsc: "An application to upload files of any type Eg: PDF, JPEG, PNG. The files can be viewed / downloaded / share. Files can be accessed from anywhere as it stays connected your google account",
     tech: ["REACT", "NEXTJS", "FIREBASE", "CLERK"],
     deployedLink: "https://file-cloud-drab.vercel.app/",
-    img: "https://i.ibb.co/2hv8kgP/Frame-7.png",
+    img: "https://i.ibb.co/jbL29qy/dropbox-img.png",
     type: "Web App",
   },
   {
@@ -38,6 +38,33 @@ export const liveProjects = [
     deployedLink: "/",
     img: "https://i.ibb.co/dkWJH3n/Wanna-get-yourself-a-Web-3-NFT-website-Front-End-Built-4.png",
     type: "Mobile App",
+  },
+];
+
+export const web3Projects = [
+  {
+    title: "KRYPT - Send Money on Blockchain",
+    dsc: "Send money from one account to another on the blockchain in one click",
+    tech: ["Nextjs", "Solidity", "Web3", "Ethers"],
+    deployedLink: "https://apps.apple.com/app/id6469010105",
+    img: "https://i.ibb.co/wpRCshR/Frame-12.png",
+    type: "Web3 App",
+  },
+  {
+    title: "Marvel - NFT Minter",
+    dsc: "A NFT Minter that can be used to mint marvel superheros and view it on the blockchain ",
+    tech: ["Nextjs", "Solidity", "Web3", "Ethers", "Tailwind"],
+    deployedLink: "https://marvel-nft-collection-kqgx-knlwit3vs.vercel.app",
+    img: "https://i.ibb.co/R0KSMXY/img-marvel-minter.png",
+    type: "Web3 App",
+  },
+  {
+    title: "Full Stack NFT Marketplace",
+    dsc: "An opensea clone where one can list, buy and sell NFTs. A complete NFT marketplace made on top of Ethereum.",
+    tech: ["Nextjs", "Web3", "Solidity", "Ethers", "Tailwind", "Pinata"],
+    deployedLink: "https://opensea-clone-beta.vercel.app",
+    img: "https://i.ibb.co/PGS8VDZ/markeetplace.png",
+    type: "Web3 App",
   },
 ];
 
@@ -94,12 +121,8 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "Android Development",
-  "Frontend Development",
-  "Backend Development",
-  "iOS Development",
-  "App Development",
-  "Web & App Design",
-  "Blockchain",
-  "Web 3 ",
+  "Mobile Dev 📱",
+  "Web Dev 💻",
+  "Blockchain 🔗",
+  "Web 3 ⚡️",
 ];

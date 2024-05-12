@@ -1,3 +1,4 @@
+import { skills } from "@/data";
 import { ArrowDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,6 +23,21 @@ function Hero() {
       <h1 className=" font-mono text-sm font-normal tracking-wide text-yellow-300 mt-5">
         Deploying apps since 2020 🚀
       </h1>
+      <div className="mt-10 flex items-center flex-col justify-center space-y-5 md:flex-row md:space-x-10 md:space-y-0">
+        {skills.map((data, i) => {
+          return (
+            <div
+              key={i}
+              className="relative focus:outline-none inline-flex group cursor-pointer"
+            >
+              <div className="absolute focus:outline-none hover:outline-none transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-full blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+              <div className="relative focus:outline-none hover:outline-none  border-2 inline-flex items-center justify-center text-white transition-all duration-200 bg-gray-900 font-pj rounded-full ">
+                <p className="mx-7 my-2">{data}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
       <div className="mt-10">
         <Image
           className=""

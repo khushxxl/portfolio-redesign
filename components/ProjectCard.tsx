@@ -20,7 +20,6 @@ function ProjectCard({
   img,
   type,
 }: CardProps) {
-  const dummy = ["REACT", "NEXTJS", "TAILWIND", "FIREBASE", "REACT NATIVE"];
   return (
     <div className="m-10 border-[0.1px] transform transition-transform duration-300 hover:scale-105 border-gray-600 max-w-sm cursor-pointer">
       <Link className="" target="_blank" href={deployedLink}>
