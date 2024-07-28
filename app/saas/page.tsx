@@ -82,6 +82,12 @@ function SaasPage() {
           url={"https://www.simplejscode.com/"}
         />
       </div>
+
+      <Link href={"/"}>
+        <div className="mt-20">
+          <p className="text-gray-600 underline">khushcodez.net</p>
+        </div>
+      </Link>
     </div>
   );
 }
